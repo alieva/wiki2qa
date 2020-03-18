@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7a534d1-a802-4cec-9eea-81fa7f5a3a55" name="Default Changelist" comment="" />
+    <list default="true" id="a7a534d1-a802-4cec-9eea-81fa7f5a3a55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excluded.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paragraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallelization" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/squadtitles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote.py" beforeDir="false" afterPath="$PROJECT_DIR$/remote.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YgVKdmfY1ul9iMoQFEjpeEMfLB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,20 +38,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/wiki" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/wiki" />
       <recent name="$PROJECT_DIR$/venv" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/wiki" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.remote (1)">
-    <configuration name="connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.paragraph">
+    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -41,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mapfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapfile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remote (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="paragraph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remote.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paragraph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remote" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parallelization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remote" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallelization" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.remote (1)" />
+        <item itemvalue="Python.paragraph" />
+        <item itemvalue="Python.mapfile" />
+        <item itemvalue="Python.dictionary" />
+        <item itemvalue="Python.parallelization" />
         <item itemvalue="Python.local" />
-        <item itemvalue="Python.remote" />
-        <item itemvalue="Python.read" />
-        <item itemvalue="Python.connection" />
       </list>
     </recent_temporary>
   </component>
@@ -158,53 +181,65 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="357" width="1010" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583838676068">
+    <state x="708" y="357" width="1010" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584384404412">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="708" y="357" width="1010" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1583838676068" />
-    <state width="1830" height="388" key="GridCell.Tab.0.bottom" timestamp="1583883149798">
+    <state x="708" y="357" width="1010" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584384404412" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584040015575">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583883149798" />
-    <state width="1830" height="388" key="GridCell.Tab.0.center" timestamp="1583883149798">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584040015575" />
+    <state x="504" y="96" width="968" height="912" key="CommitChangelistDialog2" timestamp="1584565170048">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583883149798" />
-    <state width="1830" height="388" key="GridCell.Tab.0.left" timestamp="1583883149798">
+    <state x="504" y="96" width="968" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584565170048" />
+    <state width="1830" height="304" key="GridCell.Tab.0.bottom" timestamp="1584456039331">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583883149798" />
-    <state width="1830" height="388" key="GridCell.Tab.0.right" timestamp="1583883149798">
+    <state width="1830" height="304" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039331" />
+    <state width="1830" height="304" key="GridCell.Tab.0.center" timestamp="1584456039330">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583883149798" />
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1583504747356">
+    <state width="1830" height="304" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
+    <state width="1830" height="304" key="GridCell.Tab.0.left" timestamp="1584456039330">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583504747356" />
-    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1583504747356">
+    <state width="1830" height="304" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
+    <state width="1830" height="304" key="GridCell.Tab.0.right" timestamp="1584456039330">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583504747356" />
-    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1583504747356">
+    <state width="1830" height="304" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1584017508154">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583504747356" />
-    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1583504747356">
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584017508154" />
+    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1584017508153">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583504747356" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583884078575">
+    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584017508153" />
+    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1584017508153">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583884078575" />
+    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584017508153" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1584017508154">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584017508154" />
+    <state x="482" y="175" key="SettingsEditor" timestamp="1584395664567">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1584395664567" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584542215780">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584542215780" />
     <state x="543" y="240" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583425696429">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="543" y="240" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1583425696429" />
-    <state x="656" y="257" key="search.everywhere.popup" timestamp="1583880170938">
+    <state x="656" y="257" key="search.everywhere.popup" timestamp="1584384340663">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583880170938" />
+    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584384340663" />
   </component>
 </project>

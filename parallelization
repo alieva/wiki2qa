@@ -1,0 +1,10 @@
+from joblib import Parallel, delayed
+from math import sqrt
+
+
+def do(a):
+    res = sqrt(a)
+    print(res)
+
+
+Parallel(n_jobs=1)(delayed(do)(i**2) for i in range(10))

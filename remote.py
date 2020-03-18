@@ -4,7 +4,7 @@ import os
 from difflib import SequenceMatcher
 import pysftp
 
-threshold = 0.82
+threshold = 0.92
 
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
