@@ -20,8 +20,11 @@ pathToWikiFiles = "../../../var/xdolez52/Zpracování Wikipedie/html_from_wikipe
 wikiFiles = os.listdir(pathToWikiFiles)
 excluded = ["old-2019-01-12", "old-2019-10-15", "old-2019-10-18", "old-2019-11-20", "old-2019-12-07", "old-2019-11-14", "old-2020-01-02", "fixBadDecodedLinks.py", "missing_entities.py", "missing_entities_2020-01-02.txt", "time-missing_entities_2020-01-02.txt", "time-wikipedia_processing_2020-01-02.txt"]
 
+something_useful = True
 
 print(wikiFiles)
+
+something_more_useful = True
 
 with open('data/output.tsv', mode='a') as output_file:
     output_writer = csv.writer(output_file, delimiter='\t')
