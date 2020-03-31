@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a534d1-a802-4cec-9eea-81fa7f5a3a55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excluded.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paragraph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallelization" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/squadtitles" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote.py" beforeDir="false" afterPath="$PROJECT_DIR$/remote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paragraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/paragraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,10 +221,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1584395664567" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584542215780">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585642317322">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584542215780" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585642317322" />
     <state x="543" y="240" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583425696429">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
