@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a534d1-a802-4cec-9eea-81fa7f5a3a55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paragraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/paragraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +34,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/wiki" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/wiki" />
       <recent name="$PROJECT_DIR$/venv" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+      <recent name="$PROJECT_DIR$/data/wiki" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.paragraph">
-    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.coref">
+    <configuration name="coref" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,28 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="local" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="squad2wiki" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/local.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coref.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parallelization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="squad2wiki" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +118,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neuralcoref" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallelization" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuralcoref/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_neuralcoref" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="squad2wiki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neuralcoref/neuralcoref/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuralcoref/neuralcoref/tests/test_neuralcoref.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coref" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.test_neuralcoref" />
         <item itemvalue="Python.paragraph" />
         <item itemvalue="Python.mapfile" />
-        <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.parallelization" />
-        <item itemvalue="Python.local" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +188,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="504" y="96" width="968" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584565170048" />
-    <state width="1830" height="304" key="GridCell.Tab.0.bottom" timestamp="1584456039331">
+    <state width="1830" height="304" key="GridCell.Tab.0.bottom" timestamp="1586012078081">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="304" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039331" />
-    <state width="1830" height="304" key="GridCell.Tab.0.center" timestamp="1584456039330">
+    <state width="1830" height="304" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586012078081" />
+    <state width="1830" height="304" key="GridCell.Tab.0.center" timestamp="1586012078080">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="304" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
-    <state width="1830" height="304" key="GridCell.Tab.0.left" timestamp="1584456039330">
+    <state width="1830" height="304" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586012078080" />
+    <state width="1830" height="304" key="GridCell.Tab.0.left" timestamp="1586012078079">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="304" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
-    <state width="1830" height="304" key="GridCell.Tab.0.right" timestamp="1584456039330">
+    <state width="1830" height="304" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586012078079" />
+    <state width="1830" height="304" key="GridCell.Tab.0.right" timestamp="1586012078080">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="304" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584456039330" />
+    <state width="1830" height="304" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586012078080" />
     <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1584017508154">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -221,17 +224,17 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1584395664567" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585642317322">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586009243902">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585642317322" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586009243902" />
     <state x="543" y="240" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583425696429">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="543" y="240" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1583425696429" />
-    <state x="656" y="257" key="search.everywhere.popup" timestamp="1584384340663">
+    <state x="656" y="257" key="search.everywhere.popup" timestamp="1586010675125">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584384340663" />
+    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1586010675125" />
   </component>
 </project>

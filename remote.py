@@ -22,7 +22,7 @@ with open('data/output.tsv', mode='w') as output_file:
 
 myHostname = "minerva3.fit.vutbr.cz"
 myUsername = "xaliye02"
-myPassword = "ha5tertujo"
+myPassword = ""
 
 with pysftp.Connection(host=myHostname, username=myUsername, password=myPassword) as sftp:
     print("Connection successfully established ... ")
