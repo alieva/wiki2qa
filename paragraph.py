@@ -1,6 +1,8 @@
 import json
 import csv
 import os
+import os.path
+from os import path
 # import spacy
 from included import wikiFiles
 from difflib import SequenceMatcher
@@ -34,6 +36,11 @@ def do(wiki_file):
     pages = []
     inSentence = False;
     paragraphId = -1
+
+    # print(pathToWikiFiles + "/" + wiki_file)
+    # exists = path.exists(pathToWikiFiles + "/" + wiki_file)
+    # print(exists)
+    return []
     with open(pathToWikiFiles + "/" + wiki_file) as wiki:
         data = csv.reader(wiki, delimiter='\t')
         for t in data:
@@ -70,19 +77,19 @@ def do(wiki_file):
                         # print(last_paragraph)
                         squad_paragraph = matches[-1]["squad_paragraph"]
                         sim = similarity(last_paragraph, squad_paragraph)
-                        # match = {"match_percentage": '{0:.2f}'.format(1),
-                        #         "squad": squad_paragraph,
-                        #         "wiki": last_paragraph,
-                        #         "squad_data": squad_dictionary[last_paragraph]}
-                        # print("----------------------------------------")
-                        # print(last_paragraph)
-                        # print(squad_paragraph)
-                        # print(str(sim) + " " + matches[-1]["squad"])
+                        match = {"match_percentage": '{0:.2f}'.format(1),
+                                "squad": squad_paragraph,
+                                "wiki": last_paragraph,
+                                "squad_data": squad_dictionary[last_paragraph]}
+                        print("----------------------------------------")
+                        print(last_paragraph)
+                        print(squad_paragraph)
+                        print(str(sim) + " " + matches[-1]["squad"])
 
                     matches[-1]["last_paragraph"] = []
                     paragraphId = paragraphId + 1
-                    # pa    r = Paragraph(f[7:])
-                    # pages[-1].paragraphs.append(par)
+                    par = Paragraph(f[7:])
+                    pages[-1].paragraphs.append(par)
                     a = 1
                 elif f.startswith("%%#SEN") and inSquad == True:
                     inSentence = True
@@ -91,12 +98,12 @@ def do(wiki_file):
                 elif inSentence == True and inSquad == True:
                     matches[-1]["last_paragraph"].append(t[1])
                     
-                    # print("Sentence for " + matches[-1]["squad"])
-                    # print("SEN - length:" + str(len(t)) + ", page: " + pages[-1].title)
-                    # print(t)
-                    # sentence = listToString(t)
-                    # print(sentence)
-                    # (pages[-1].paragraphs[-1]).sentences.append(sentence)
+                    print("Sentence for " + matches[-1]["squad"])
+                    print("SEN - length:" + str(len(t)) + ", page: " + pages[-1].title)
+                    print(t)
+                    sentence = listToString(t)
+                    print(sentence)
+                    (pages[-1].paragraphs[-1]).sentences.append(sentence)
         if not found:
             print("no matches found in: " + wiki_file)
 
@@ -112,16 +119,20 @@ with open('data/train-v1.1.json') as file:
         squad_dictionary[title] = root
 
 
-pathToWikiFiles = "/var/xdolez52/Zpracování Wikipedie/html_from_wikipedia_en_all_novid_2018-10.zim/6-mg4j"
+pathToWikiFiles = "/var/xdolez52/Zpracovani_Wikipedie/html_from_wikipedia_en_all_novid_2018-10.zim/6-mg4j"
+dirFiles = os.listdir(pathToWikiFiles)
+for dirFile in dirFiles:
+    print(dirFile)
 
-# print(wikiFiles)
-with open('data/map_paragraphs.tsv', mode='a') as output_file:
+print(wikiFiles)
+with open('data/map_paragraphs2.tsv', mode='a') as output_file:
     output_writer = csv.writer(output_file, delimiter='\t')
     output_writer.writerow(["######### BEGIN #########"])
+    
     for file in wikiFiles:
         results = do(file)
         for result in results:
             output_writer.writerow([result["match_percentage"], result["squad"], result["file"]])
-            # output_writer.writerow(result["paragraphs"])
+            output_writer.writerow(result["paragraphs"])
 
 print("end.")
