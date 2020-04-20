@@ -3,6 +3,7 @@ import csv
 import os
 from included import wikiFiles
 from difflib import SequenceMatcher
+# import pdb
 
 class Page:
     def __init__(self, title):
@@ -37,13 +38,14 @@ def do(wiki_file):
             if len(t) > 0:
                 f = t[0]
                 if f.startswith("%%#PAGE"):
+                    # pdb.set_trace();
                     wiki_title = f[8:]
                     if wiki_title in squad_dictionary:
                         squad_paragraph = []
                         squad_question = squad_dictionary[wiki_title]
                         for p in squad_question["paragraphs"]:
                             squad_paragraph = p["context"]
-                            print(squad_paragraph)
+                            # print(squad_paragraph)
 
                         inSquad = True
                         found = True
@@ -57,6 +59,7 @@ def do(wiki_file):
                     else:
                         inSquad = False
                 elif f.startswith("%%#PAR") and inSquad == True:
+                    # pdb.set_trace();
                     if (paragraphId > -1):
                         last_paragraph = matches[-1]["last_paragraph"]
                         squad_paragraph = matches[-1]["squad_paragraph"]
@@ -70,6 +73,7 @@ def do(wiki_file):
                 elif f.startswith("%%#DOC"):
                     inSentence = False
                 elif inSentence == True and inSquad == True:
+                    # pdb.set_trace();
                     matches[-1]["last_paragraph"].append(t[1])
         if not found:
             print("no matches found in: " + wiki_file)
@@ -95,5 +99,8 @@ with open('data/map_paragraphs.tsv', mode='a') as output_file:
         results = do(file)
         for result in results:
             output_writer.writerow([result["match_percentage"], result["squad"], result["file"]])
+            for result in results:  
+                output_writer.writerow([result["squad_paragraph"]])
+                print(result)
 
 print("end.")
